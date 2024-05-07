@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Open_Sans_SemiBold;
+    src: url(./font/Open_Sans/static/OpenSans-SemiBold.ttf);
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+.logo-header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header-section img{
+    width: 15%;
+    height: 25%;
+}
+
+.main-header h1{
+    font-family: "Open_Sans_SemiBold";
+    color: blue;
+}
+
+.main-header {
+    margin: 0 !important;
+}
+.main-header h2{
+    font-size: 38px;
+}
+.main-header p{
+    font-size: 14px;
+}
+.main-header h2,  .main-header p{
+    font-family: "Open_Sans_SemiBold";
+    color: #7AC5FD;
+    margin: 0 !important;
+
+}
+
+.details input{
+    border: none;
+    border-bottom: 2px solid #7AC5FD;
+    width: 30%;
+    margin-top: 5px;
+}
+
+.details input:focus{
+border: none;
+}
+
+.details p{
+    font-size: 24px;
+    color: #6bb0e4;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.payment-details{
+    width: 30%;
+}
+.paymentdetais_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.paymentdetais_info h2{
+    
+    font-family: "Open_Sans_SemiBold";
+    color: #6bb0e4;
+}
+
+.paymentdetais_info img{
+    width: 35%;
+    height: 25%;
+}
+
+.debit-credit, .sort-code{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    border-bottom: 2px solid #7AC5FD ;
+}
+
+.debit-credit p{
+    font-family: "Open_Sans_SemiBold";
+   
+}
+
+ .debit-creditRadio{
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.payment-input input{
+    border: none;
+    border-bottom: 2px solid #7AC5FD;
+    width: 30%;
+}
+
+.sortCode{
+    font-size: 30px !important;
+}
+
+.sortCode{
+margin: 0 !important;
+width: 10% !important;
+}
+
+.accountNumber{
+    border: none;
+    border-bottom: 2px solid #7AC5FD;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
